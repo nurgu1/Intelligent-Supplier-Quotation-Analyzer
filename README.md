@@ -69,7 +69,7 @@ Upload PDFs --> receive instant analysis.
 
 2) Installation
 1. Clone repository
-git clone https://github.com/YOUR_USERNAME/llm-quotation-analyzer.git
+git clone [https://github.com/YOUR_USERNAME/llm-quotation-analyzer.git](https://github.com/nurgu1/Intelligent-Supplier-Quotation-Analyzer.git)
 cd llm-quotation-analyzer
 
 2. Create virtual environment
