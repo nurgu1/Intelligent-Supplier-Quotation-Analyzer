@@ -1,11 +1,11 @@
 import streamlit as st
 import pandas as pd
-
+from dotenv import load_dotenv
 from pdf_extractor import extract_text, clean_text
 from llm_main import extract_supplier_data
 from currency_ex import convert_to_eur
 from scoring import compute_lead_weeks, simple_weighted_score
-
+load_dotenv()
 
 st.set_page_config(page_title="Supplier Quotation Analyzer", layout="wide")
 st.title("📄 Intelligent Supplier Quotation Analyzer")
