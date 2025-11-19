@@ -6,7 +6,22 @@ An AI-powered tool that automatically extracts structured information from suppl
 
 Built with Python, Streamlit, PDF parsers, and an LLM-based extraction engine.
 
-1) Features: 
+
+!IMPORTANT:
+Set up Groq API Key (required)
+
+Create a Groq account:
+https://console.groq.com
+
+Generate an API key under API Keys
+
+Create a .env file in the project root:
+GROQ_API_KEY=your_api_key_here
+
+
+
+1) Features:
+
 ✔ Automatic PDF Extraction
 
 Extracts:
