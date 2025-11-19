@@ -1,0 +1,8 @@
+streamlit
+pandas
+requests
+pypdf2
+pdfplumber
+pillow
+groq
+python-dotenv
